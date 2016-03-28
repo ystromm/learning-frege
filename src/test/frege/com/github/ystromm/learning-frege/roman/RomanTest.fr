@@ -1,0 +1,6 @@
+module RomanTest where
+import frege.test.QuickCheck
+import Roman
+
+simple = property(Roman.fromInt(1) == "i")
+

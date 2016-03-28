@@ -1,0 +1,6 @@
+module Roman where 
+
+import Prelude.Math
+
+fromInt :: (Integral i) => i -> String
+fromInt 1 = "I"
